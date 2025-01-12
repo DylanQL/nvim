@@ -12,10 +12,10 @@ vim.o.number = true
 vim.o.relativenumber = true
 
 -- Establece un esquema de colores predeterminado (cambia 'default' por el deseado)
-vim.cmd("colorscheme sorbet") -- Cambia 'desert' por otro esquema disponible
+vim.cmd("colorscheme elflord") -- Cambia 'desert' por otro esquema disponible
 
 -- Configura el fondo negro después del esquema
-vim.cmd("highlight Normal guibg=#000000") -- Fondo negro
+--vim.cmd("highlight Normal guibg=#000000") -- Fondo negro
 
 -- Alias de comandos para wl-clipboard
 vim.cmd([[
