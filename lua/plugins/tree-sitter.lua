@@ -18,6 +18,8 @@ return {
 		"cpp",       -- Soporte para C++
 		"java",      -- Soporte para Java
 		"kotlin",    -- Soporte para Kotlin
+		"javascript",-- Soporte para JavaScript
+		"tsx",       -- Soporte para TSX
         },
         highlight = { -- Resaltado de sintaxis basado en Treesitter
             enable = true, -- Habilita el resaltado de sintaxis
